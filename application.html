@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurniSculpt Studio Website</title>
+
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="styles/application.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/transition.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/05d6aadba9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-bar">
+                <li class="logo"><a href="index.html"><img src="images/Chair Logo.png"></a></li>
+                <input type="checkbox" id="check">
+                <span class="menu">
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <!--<li><a href="#about">GALLERY</a></li>-->
+                    <li><a href="career-opportunities.html">CAREER OPPORTUNITIES</a></li>
+                    <li><a href="contact-page.html">CONTACT US</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+            <ul class="nav-bar2">
+                <li class="logo2"><a href="index.html"><img src="images/Chair Logo.png"></a></li>
+                <input type="checkbox" id="check">
+                <span class="menu2">
+                    <li><a href="index.html" class="active">HOME</a></li>
+                    <!--<li><a href="#about">GALLERY</a></li>-->
+                    <li><a href="career-opportunities.html">CAREER OPPORTUNITIES</a></li>
+                    <li><a href="contact-page.html">CONTACT US</a></li>
+                </span>
+            </ul>
+        </nav>   
+    </header>
+    <section class="container">
+        <div class="title">Job Application Form</div>
+        <form class="form">
+            <div class="column">
+                <div class="input-box">
+                    <label>Name</label>
+                    <input type="text" placeholder="Enter your name" required="required" />
+                </div>
+
+                <div class="input-box">
+                    <label>Last Name</label>
+                    <input type="text" placeholder="Enter your last name" required="required" />
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="input-box">
+                    <label>Birth Date</label>
+                    <input type="date" placeholder="Enter your birth date" required="required" />
+                </div>
+
+                <div class="input-box">
+                    <label>Phone Number</label>
+                    <input type="number" placeholder="Enter your phone number" required="required" />
+                </div>
+            </div>
+
+            <div class="input-box">
+                <label>E-mail</label>
+                <input type="text" placeholder="Enter your e-mail" required="required" />
+            </div>
+
+
+            <div class="gender-box">
+                <h3>Gender</h3>
+                <div class="gender-option">
+                    <div class="gender">
+                        <input type="radio" id="check-male" name="gender" checked />
+                        <label for="check-male">Male</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-female" name="gender" />
+                        <label for="check-female">Female</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" id="check-other" name="gender" />
+                        <label for="check-other">Prefer not to say</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-box address">
+            <label>Address</label>
+            <input type="text" placeholder="Enter your street address" required="required" />
+            <div class="column">
+                <input type="text" placeholder="Enter your country" required="required" />
+                <input type="text" placeholder="Enter postal city" required="required" />
+            </div>
+            <div class="column">
+                <input type="text" placeholder="Enter your region" required="required" />
+                <input type="number" placeholder="Enter postal code" required="required" />
+            </div>
+            <div class="input-box">
+                <label>Preferred Position</label>
+                <div class="select-box">
+                    <select>
+                    <option hidden>Enter your preferred position</option>
+                    <option>Furniture Designer</option>
+                    <option>Woodworker</option>
+                    <option>Project Manager</option>
+                    </select>
+                </div>
+            </div>
+            <div class="input-box">
+                <label>About You</label>
+                <input type="text" placeholder="Tell us a little about yourself" required="required" />
+            </div>
+            <div class="input-box">
+                <label>Submit Your Resume</label>
+                <input type="file" required="required" />
+            </div>
+            <div class="submit-box"></div>
+            <input type="submit" name="" value="Send">
+        </form>
+    </section>
+
+    <footer class="footer reveal">
+        <div class="contain">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>MENU</h4>
+                    <ul>
+                        <li><a href="index.html">About Us</a></li>
+                        <li><a href="">Why us</a></li>
+                        <li><a href="career-opportunities.html">Career Opportunities</a></li>
+                        <li><a href="application.html">Application</a></li>
+                        <li><a href="contact-page.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>FURNISCULPT</h4>
+                    <a>4321 Anywhere Blvd<br>
+                        Miami, FL<br>
+                        54321</a>
+                    
+                    <a>Tel: 000-000-0000</a>
+                    
+                    <a>E-mail: movowi8959@roborena.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/cards.js"></script>
+</body>
+</html>

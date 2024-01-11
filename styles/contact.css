@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css');
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.contact{
+    position: relative;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    background: #ffffff;
+    z-index: 99;
+
+}
+
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+
+.contact .content .title{
+    font-size: 30px;
+    font-weight: 500;
+    color: #6B240C;
+}
+
+.contact .content .description{
+    font-size: 16px;
+    font-weight: 300;
+    color: #994D1C;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.container .contactInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .contactForm{
+    width: 100%;
+}
+
+.container .contactInfo .box .icon{
+min-width: 40px;
+height: 40px;
+background-color: #994D1C;
+    background: linear-gradient(to top right, #E48F45, #994D1C);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 24px;
+color: #ffffff;
+}
+
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #E48F45;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text .division{
+    font-weight: 500;
+    color: #6B240C;
+    font-size: 16px;
+}
+
+.contactForm{
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 20px;
+    
+}
+
+.contactForm .title{
+    font-size: 30px;
+    color: #6B240C;
+    font-weight: 500;
+    align-items: top;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    
+}
+
+
+.contactForm .inputBox :where(input, textarea){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 14px;
+    margin-top: 30px;
+    border: 1px solid #994e1c3c;
+    border-radius: 8px;
+    padding: 0 15px;
+}
+
+.contactForm .inputBox textarea{
+    max-width: 47vh;
+    min-height: 11vh;
+}
+
+.inputBox input:focus {
+    box-shadow: 0 1px 0 rgba(221, 18, 18, 0.766);
+}
+
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    margin-bottom: 5px;
+    color: #6B240C;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.contactForm .inputBox ::placeholder{
+    color: #bfbfbf;
+}
+
+.contactForm .sendBox input[type="submit"]{
+    font-weight: 400;
+    background-color: #994D1C;
+    background: linear-gradient(to top right, #E48F45, #994D1C);
+    font-size: 12px;
+    padding: 10px 20px;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    display:inline-block;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+    
+.contactForm .sendBox input[type="submit"]:hover{
+    background-color: #6B240C;
+    background: linear-gradient(to top right , #E48F45, #6B240C);
+}
+    
+.contactForm .sendBox input[type="submit"]:focus,
+.contactForm .sendBox input[type="submit"]:active{
+    background-color: black;
+    transition: none;
+}
+
+@media only screen and (min-width: 768px){
+
+    
+    .contact{
+        padding: 50px;
+    }
+    
+    .container{
+        flex-direction: initial;
+    }
+
+    .container .contactInfo{
+        width: 50%;
+    }
+    .container .containerInfo{
+        margin-bottom: 40px;
+    }
+
+    .contactForm{
+        width: 40%;
+    }
+    
+    .contact .content .description{
+        padding-right: 5vh;
+    }
+
+    .contact .content{
+        text-align: left;
+    }
+}
