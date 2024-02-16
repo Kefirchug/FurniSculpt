@@ -9,15 +9,24 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/transition.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css" />
 
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/05d6aadba9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Boxicons CSS -->
+    <link
+        href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+        rel="stylesheet"
+    />
 </head>
 
 
 
 <body>
+    <!--Header Small Screen-->
     <header>
         <nav>
             <ul class="nav-bar">
@@ -27,23 +36,31 @@
                     <li><a href="index.html" class="active">HOME</a></li>
                     <!--<li><a href="#about">GALLERY</a></li>-->
                     <li><a href="career-opportunities.html">CAREER OPPORTUNITIES</a></li>
+                    <li><a href="#Why Us">WHY US</a></li>
+                    <li><a href="#Our History">OUR HISTORY</a></li>
+                    <li><a href="#Testimonials">TESTIMONIALS</a></li>
                     <li><a href="contact-page.html">CONTACT US</a></li>
                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
                 </span>
                 <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
             </ul>
+    <!--Header Big Screen-->    
             <ul class="nav-bar2">
                 <li class="logo2"><a href="index.html"><img src="images/Chair Logo.png"></a></li>
                 <input type="checkbox" id="check">
                 <span class="menu2">
                     <li><a href="index.html" class="active">HOME</a></li>
-                    <!--<li><a href="#about">GALLERY</a></li>-->                    <li><a href="career-opportunities.html">CAREER OPPORTUNITIES</a></li>
+                    <li><a href="career-opportunities.html">CAREER OPPORTUNITIES</a></li>
+                    <li><a href="#Why Us">WHY US</a></li>
+                    <li><a href="#Our History">OUR HISTORY</a></li>
+                    <li><a href="#Testimonials">TESTIMONIALS</a></li>
                     <li><a href="contact-page.html">CONTACT US</a></li>
                 </span>
             </ul>
         </nav>   
     </header>
 
+    <!--Intro Container-->
     <div class="container " id="container">
         <div class="split-left">
             <div class="centered">
@@ -60,7 +77,8 @@
             </div>
         </div>
     </div>
-    <div class="service">
+    <!--Why Word With Us-->
+    <div class="service" id="Why Us">
         <div class="title2">
             <h3>Why work with us?</h3>
         </div>
@@ -90,17 +108,124 @@
             </div>
         </div>
     </div>
-    <footer class="footer reveal">
+    <!--Our History-->
+    <div class="history" id="Our History">
+        <div class="container-history reveal" id="container-history">
+            <div class="split-leftabout">
+                <div class="centered">
+                    <div class="profilepic-final"><img src="images/profilepic3.jpg"></div>
+                </div>
+            </div>
+            <div class="split-right">
+                <div class="centered">
+                    <div class="introduction-top">Our History</div>
+                    <h2>Crafting Dreams into Reality Since 2006</h2>
+                    <div class="introduction1">In 2006, FurniSculpt emerged from the visionary mind of artisan Marcus Delaney, establishing itself as a beacon of innovation in the furniture industry. Drawing inspiration from global travels, Marcus and his team crafted bespoke pieces that seamlessly blended cultures and traditions, captivating designers and homeowners alike. Over the years, FurniSculpt's dedication to excellence garnered widespread acclaim, solidifying its reputation as a premier destination for unique furniture creations. Today, with nearly two decades of history, FurniSculpt stands as a testament to Marcus's vision, inspiring generations with its craftsmanship, imagination, and unwavering pursuit of beauty in every detail.</div>
+                    <div class="introduction-top">Furniture Designer, Founder</div>
+                    <div class="introduction-bottom2">Marcus Delaney</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Testimonials-->
+    <section class="container-slide" id="Testimonials">
+        <div class="testimonial mySwiper">
+            <div class="testi-content swiper-wrapper">
+            <div class="slide swiper-slide">
+                <h5>Testimonials</h5>
+                <div class="star-icons">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p>
+                    Joining FurniSculpt has elevated my craft. Under Marcus Delaney's mentorship, I've expanded my skills and embraced new challenges. Each project pushes me to excel, making FurniSculpt the perfect environment for growth.
+                </p>
+
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                <img src="images/rec1.jpg" alt="" class="image" />
+
+
+                <div class="details">
+                <span class="employee">David Kim</span>
+                <span class="job">Project Manager</span>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <h5>Testimonials</h5>
+                <div class="star-icons">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+    
+                <p>
+                    FurniSculpt is a dream workplace. The team's collaborative spirit and Marcus Delaney's passion for craftsmanship make every day inspiring. I've grown creatively and professionally, thanks to FurniSculpt's commitment to quality and innovation.
+                </p>
+
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                <img src="images/rec2.jpg" alt="" class="image" />
+
+
+                <div class="details">
+                <span class="employee">Sarah Larson</span>
+                <span class="job">Lead Designer</span>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <h5>Testimonials</h5>
+                <div class="star-icons">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <p>
+                    FurniSculpt has transformed my approach to woodworking. With support from Marcus Delaney and the team, I've embraced modern techniques and discovered new design possibilities. Working here has been a rewarding journey of self-discovery and skill development.
+                </p>
+
+                <i class="bx bxs-quote-alt-left quote-icon"></i>
+
+                <img src="images/rec3.jpg" alt="" class="image" />
+
+                <div class="details">
+                <span class="employee">Emily Martinez</span>
+                <span class="job">Design Assistant</span>
+                </div>
+            </div>
+            </div>
+            <div class="swiper-button-next nav-btn"></div>
+            <div class="swiper-button-prev nav-btn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!-- JavaScript -->
+
+    <script src="js/script.js"></script>
+    <!--Footer-->
+    <footer class="footer">
         <div class="contain">
             <div class="row">
                 <div class="footer-col">
                     <h4>MENU</h4>
                     <ul>
-                        <li><a href="index.html">About Us</a></li>
-                        <li><a href="">Why us</a></li>
-                        <li><a href="career-opportunities.html">Career Opportunities</a></li>
-                        <li><a href="application.html">Application</a></li>
-                        <li><a href="contact-page.html">Contact Us</a></li>
+                        <li><a href="career-opportunities.html">CAREER OPPORTUNITIES</a></li>
+                        <li><a href="#Why Us">WHY US</a></li>
+                        <li><a href="#Our History">OUR HISTORY</a></li>
+                        <li><a href="#Testimonials">TESTIMONIALS</a></li>
+                        <li><a href="contact-page.html">CONTACT US</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -111,11 +236,12 @@
                     
                     <a>Tel: 000-000-0000</a>
                     
-                    <a>E-mail: movowi8959@roborena.com</a>
+                    <a>E-mail: info@furni.com</a>
                 </div>
             </div>
         </div>
     </footer>
+    <!--Java Slide Up Transition-->
     <script src="js/cards.js"></script>
 </body>
 </html>

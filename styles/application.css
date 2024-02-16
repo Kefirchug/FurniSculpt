@@ -14,7 +14,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .container{
@@ -40,7 +39,6 @@ body{
 
 .container .form{
     margin-top: 20px;
-
 }
 
 .form .input-box{
@@ -53,7 +51,7 @@ body{
     font-size: 18px;
     font-weight: 300;
 }
- 
+
 .form :where(.input-box input, .select-box){
     position: relative;
     height: 50px;
@@ -96,7 +94,6 @@ body{
 
 .form .gender{
     column-gap: 5px;
-
 }
 
 .gender input {

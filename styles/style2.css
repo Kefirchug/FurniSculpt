@@ -14,20 +14,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 section{
     min-height: 100vh;
     display: column;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
     margin-right: 10px;
     z-index: 99;
 }
-
 
 .job-one, .job-two, .job-three{
     width: auto;
@@ -39,8 +38,6 @@ section{
     display: align-items;
     flex-direction: column;
     z-index: 99;
-
-    
 }
 
 .job1 img, .job2 img, .job3 img{
@@ -49,11 +46,9 @@ section{
     padding-top: 20px;
 }
 
-
-
 .job-title1, .job-title2, .job-title3{
     padding-top: 20px;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 35px;
     color: #6B240C; 
@@ -66,52 +61,45 @@ section{
 }
 
 .split-left2{
-    text-align: center;
+    text-align: left;
     align-items: center;
     padding-bottom: 30px;
 }
 
 .split-right1, .split-right2, .split-right3 {
     padding-bottom: 40px;
-    text-align: center;
+    text-align: left;
     align-items: center;
 }
 
-
 .job-description1, .job-description2, .job-description3{
     padding-top: 20px;
-    text-align: center;
+    text-align: left;
     color: #994D1C;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 300;
-
-    
 }
-
 
 .btn{
     margin-top: 20px;
     font-weight: 300;
     background-color: #994D1C;
     background: linear-gradient(to top right, #E48F45, #994D1C);
-    font-size: 12px;
     padding: 15px 20px;
     border: none;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     display:inline-block;
     border-radius: 8px;
     transition: background-color 4s;
     text-indent: 5px;
-    
 }
 
 .btn:hover{
     background-color: #6B240C;
     background: linear-gradient(to top right , #E48F45, #6B240C);
-
 }
 
 .btn:focus,
@@ -119,7 +107,6 @@ section{
     background-color: black;
     transition: none;
 }
-
 
 
 
@@ -134,9 +121,8 @@ section{
     section{
         min-height: 50vh;
         display: flex;
-        padding-bottom: 10vh;
-        
     }
+
     .split-left2{
         left: 0;
         color: #6B240C;
@@ -164,6 +150,7 @@ section{
         width: 45%;
         align-items: center;
     }
+
     .split-left1{
         padding-top: 35px;
     }
@@ -227,13 +214,10 @@ section{
         width: 40%;
     }
     
-    
-    
     .btn{
         font-weight: 300;
         background-color: #994D1C;
         background: linear-gradient(to top right, #E48F45, #994D1C);
-        font-size: 12px;
         padding: 15px 20px;
         border: none;
         color: #FFFFFF;
@@ -249,7 +233,6 @@ section{
     .btn:hover{
         background-color: #6B240C;
         background: linear-gradient(to top right , #E48F45, #6B240C);
-    
     }
     
     .btn:focus,

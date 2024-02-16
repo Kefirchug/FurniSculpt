@@ -14,8 +14,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    
 }
 
 .contact{
@@ -28,7 +26,6 @@ body{
     flex-direction: column;
     background: #ffffff;
     z-index: 99;
-
 }
 
 .contact .content{
@@ -75,16 +72,16 @@ body{
 }
 
 .container .contactInfo .box .icon{
-min-width: 40px;
-height: 40px;
-background-color: #994D1C;
+    min-width: 40px;
+    height: 40px;
+    background-color: #994D1C;
     background: linear-gradient(to top right, #E48F45, #994D1C);
-display: flex;
-justify-content: center;
-align-items: center;
-border-radius: 50%;
-font-size: 24px;
-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #ffffff;
 }
 
 .container .contactInfo .box .text{
@@ -122,7 +119,6 @@ color: #ffffff;
     margin-top: 15px;
     
 }
-
 
 .contactForm .inputBox :where(input, textarea){
     position: relative;
@@ -186,9 +182,10 @@ color: #ffffff;
     transition: none;
 }
 
+
+
 @media only screen and (min-width: 768px){
 
-    
     .contact{
         padding: 50px;
     }
